@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="A11ytek – Professional digital accessibility services. WCAG audits, remediation, training, and consulting to make the web inclusive for everyone." />
+  <title>A11ytek | Digital Accessibility Services</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.a11ytek.com/" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.a11ytek.com/" />
+  <meta property="og:title" content="A11ytek | Digital Accessibility Services" />
+  <meta property="og:description" content="End-to-end digital accessibility services — WCAG audits, remediation, training, and compliance consulting. Make your product work for everyone." />
+  <meta property="og:image" content="https://www.a11ytek.com/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:site_name" content="A11ytek" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="A11ytek | Digital Accessibility Services" />
+  <meta name="twitter:description" content="End-to-end digital accessibility services — WCAG audits, remediation, training, and compliance consulting." />
+  <meta name="twitter:image" content="https://www.a11ytek.com/og-image.png" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Skip Navigation -->
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#" class="logo" aria-label="A11ytek – Home">
+        <svg class="logo-icon" width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+          <defs>
+            <linearGradient id="lgh" x1="0" y1="0" x2="42" y2="42" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#2563eb"/>
+              <stop offset="1" stop-color="#7c3aed"/>
+            </linearGradient>
+          </defs>
+          <rect width="42" height="42" rx="12" fill="url(#lgh)"/>
+          <!-- Head — apex of the A -->
+          <circle cx="21" cy="9.5" r="4.5" fill="white"/>
+          <!-- Left leg of A = left leg of person -->
+          <path d="M8 35 L21 12" stroke="white" stroke-width="3.2" stroke-linecap="round"/>
+          <!-- Right leg of A = right leg of person -->
+          <path d="M34 35 L21 12" stroke="white" stroke-width="3.2" stroke-linecap="round"/>
+          <!-- Outstretched arms = crossbar of A -->
+          <path d="M11 24.5 L31 24.5" stroke="white" stroke-width="3.2" stroke-linecap="round"/>
+        </svg>
+        <span class="logo-word">
+          <span class="logo-a">A</span><span class="logo-11">11</span><span class="logo-y">y</span><span class="logo-tek">tek</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+          <span class="hamburger"></span>
+        </button>
+        <ul id="nav-menu" class="nav-menu" role="list">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#documents">Documents</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#why">Why A11ytek</a></li>
+          <li><a href="#contact" class="btn btn-nav">Get a Free Audit</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main id="main">
+
+    <!-- Hero -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <div class="badge" aria-hidden="true">WCAG 2.2 · ADA · Section 508</div>
+          <h1 id="hero-heading">
+            Building a Web<br />
+            <span class="gradient-text">Everyone Can Use</span>
+          </h1>
+          <p class="hero-desc">
+            A11ytek provides end-to-end digital accessibility services — from audits and remediation to training and ongoing compliance — so your products work for every user, regardless of ability.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Get a Free Audit</a>
+            <a href="#services" class="btn btn-secondary">Explore Services</a>
+          </div>
+          <div class="hero-trust" aria-label="Compliance standards supported">
+            <span>WCAG 2.2 AA</span>
+            <span aria-hidden="true">·</span>
+            <span>ADA Compliant</span>
+            <span aria-hidden="true">·</span>
+            <span>Section 508</span>
+            <span aria-hidden="true">·</span>
+            <span>EN 301 549</span>
+          </div>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="hero-card card-1">
+            <div class="card-icon">✓</div>
+            <div>
+              <strong>Audit Complete</strong>
+              <p>0 Critical Issues</p>
+            </div>
+          </div>
+          <div class="hero-card card-2">
+            <div class="card-icon">♿</div>
+            <div>
+              <strong>WCAG 2.2 AA</strong>
+              <p>Fully Compliant</p>
+            </div>
+          </div>
+          <div class="hero-card card-3">
+            <div class="card-icon">⭐</div>
+            <div>
+              <strong>Accessibility Score</strong>
+              <p>98 / 100</p>
+            </div>
+          </div>
+          <div class="hero-circle"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section services" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">What We Do</span>
+          <h2 id="services-heading">Comprehensive Accessibility Services</h2>
+          <p>From first audit to full compliance, we partner with you every step of the way.</p>
+        </div>
+        <ul class="services-grid" role="list">
+          <li class="service-card">
+            <div class="service-icon" aria-hidden="true">🔍</div>
+            <h3>Accessibility Audits</h3>
+            <p>Manual and automated WCAG 2.2 audits across web, mobile, and desktop. Detailed reports with prioritized, actionable findings.</p>
+            <ul class="service-features" aria-label="Audit features">
+              <li>Manual expert testing</li>
+              <li>Screen reader evaluation</li>
+              <li>Colour contrast analysis</li>
+              <li>Keyboard navigation testing</li>
+            </ul>
+          </li>
+          <li class="service-card">
+            <div class="service-icon" aria-hidden="true">🛠️</div>
+            <h3>Remediation Support</h3>
+            <p>Hands-on code fixes and developer guidance to resolve accessibility issues quickly and correctly, the first time.</p>
+            <ul class="service-features" aria-label="Remediation features">
+              <li>Code-level fixes</li>
+              <li>ARIA pattern implementation</li>
+              <li>Developer pairing sessions</li>
+              <li>Re-testing & sign-off</li>
+            </ul>
+          </li>
+          <li class="service-card">
+            <div class="service-icon" aria-hidden="true">📋</div>
+            <h3>Compliance Consulting</h3>
+            <p>Navigate ADA, Section 508, EN 301 549, and AODA requirements with expert legal and technical guidance.</p>
+            <ul class="service-features" aria-label="Compliance features">
+              <li>Gap analysis</li>
+              <li>VPATs & ACRs</li>
+              <li>Legal risk assessment</li>
+              <li>Roadmap planning</li>
+            </ul>
+          </li>
+          <li class="service-card">
+            <div class="service-icon" aria-hidden="true">🎓</div>
+            <h3>Training & Education</h3>
+            <p>Upskill your team with role-specific accessibility training — designers, developers, content authors, and QA.</p>
+            <ul class="service-features" aria-label="Training features">
+              <li>Live workshops</li>
+              <li>On-demand courses</li>
+              <li>Design system review</li>
+              <li>Custom curriculum</li>
+            </ul>
+          </li>
+          <li class="service-card">
+            <div class="service-icon" aria-hidden="true">📱</div>
+            <h3>Mobile Accessibility</h3>
+            <p>Native iOS and Android app auditing using VoiceOver, TalkBack, and Switch Access testing methodologies.</p>
+            <ul class="service-features" aria-label="Mobile features">
+              <li>iOS VoiceOver testing</li>
+              <li>Android TalkBack testing</li>
+              <li>Touch target review</li>
+              <li>WCAG Mobile guidance</li>
+            </ul>
+          </li>
+          <li class="service-card">
+            <div class="service-icon" aria-hidden="true">🔄</div>
+            <h3>Ongoing Monitoring</h3>
+            <p>Continuous automated scanning and quarterly manual reviews to keep your products accessible as they evolve.</p>
+            <ul class="service-features" aria-label="Monitoring features">
+              <li>Automated CI/CD checks</li>
+              <li>Quarterly manual audits</li>
+              <li>Regression alerts</li>
+              <li>Monthly reports</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Document Accessibility -->
+    <section id="documents" class="section docs-section" aria-labelledby="docs-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Document Services</span>
+          <h2 id="docs-heading">Accessible Documents, End to End</h2>
+          <p>We remediate and create accessible PDF, Word, PowerPoint, and Excel files that meet WCAG, PDF/UA, and Section 508 standards — readable by every user and assistive technology.</p>
+        </div>
+
+        <div class="docs-grid">
+
+          <!-- PDF -->
+          <div class="doc-card">
+            <div class="doc-header pdf">
+              <svg class="doc-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="48" height="48" rx="10" fill="#E53E3E"/>
+                <path d="M14 10h14l10 10v24a2 2 0 01-2 2H14a2 2 0 01-2-2V12a2 2 0 012-2z" fill="white" fill-opacity=".2" stroke="white" stroke-width="1.5"/>
+                <path d="M28 10v10h10" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
+                <text x="24" y="36" font-family="Arial" font-size="10" font-weight="800" fill="white" text-anchor="middle">PDF</text>
+              </svg>
+              <h3>PDF Accessibility</h3>
+            </div>
+            <p>Full PDF/UA and WCAG 2.2 remediation — logical reading order, tagged content, alt text for images, and accessible forms.</p>
+            <ul class="doc-features" aria-label="PDF accessibility features">
+              <li>Tag structure & reading order</li>
+              <li>Alternative text for images/charts</li>
+              <li>Accessible form fields</li>
+              <li>Bookmarks & navigation</li>
+              <li>Colour contrast review</li>
+              <li>PDF/UA-1 conformance</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline-doc">Get a PDF Quote</a>
+          </div>
+
+          <!-- Word -->
+          <div class="doc-card">
+            <div class="doc-header word">
+              <svg class="doc-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="48" height="48" rx="10" fill="#2B5797"/>
+                <path d="M14 10h14l10 10v24a2 2 0 01-2 2H14a2 2 0 01-2-2V12a2 2 0 012-2z" fill="white" fill-opacity=".2" stroke="white" stroke-width="1.5"/>
+                <path d="M28 10v10h10" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
+                <text x="24" y="36" font-family="Arial" font-size="9" font-weight="800" fill="white" text-anchor="middle">WORD</text>
+              </svg>
+              <h3>Word Accessibility</h3>
+            </div>
+            <p>Remediate .docx files so they export correctly to PDF and are navigable with screen readers right from Word itself.</p>
+            <ul class="doc-features" aria-label="Word accessibility features">
+              <li>Heading structure & styles</li>
+              <li>Alt text for images & SmartArt</li>
+              <li>Accessible tables (headers)</li>
+              <li>Readable hyperlink text</li>
+              <li>Language tagging</li>
+              <li>Built-in Accessibility Checker pass</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline-doc">Get a Word Quote</a>
+          </div>
+
+          <!-- PowerPoint -->
+          <div class="doc-card">
+            <div class="doc-header ppt">
+              <svg class="doc-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="48" height="48" rx="10" fill="#D04423"/>
+                <path d="M14 10h14l10 10v24a2 2 0 01-2 2H14a2 2 0 01-2-2V12a2 2 0 012-2z" fill="white" fill-opacity=".2" stroke="white" stroke-width="1.5"/>
+                <path d="M28 10v10h10" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
+                <text x="24" y="36" font-family="Arial" font-size="8.5" font-weight="800" fill="white" text-anchor="middle">PPT</text>
+              </svg>
+              <h3>PowerPoint Accessibility</h3>
+            </div>
+            <p>Make presentations fully accessible for screen reader users — logical slide order, readable layouts, and properly described visuals.</p>
+            <ul class="doc-features" aria-label="PowerPoint accessibility features">
+              <li>Reading order per slide</li>
+              <li>Alt text for images & charts</li>
+              <li>Accessible slide titles</li>
+              <li>Colour contrast on all slides</li>
+              <li>Accessible tables</li>
+              <li>Exportable to accessible PDF</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline-doc">Get a PPT Quote</a>
+          </div>
+
+          <!-- Excel -->
+          <div class="doc-card">
+            <div class="doc-header excel">
+              <svg class="doc-icon" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect width="48" height="48" rx="10" fill="#1D6F42"/>
+                <path d="M14 10h14l10 10v24a2 2 0 01-2 2H14a2 2 0 01-2-2V12a2 2 0 012-2z" fill="white" fill-opacity=".2" stroke="white" stroke-width="1.5"/>
+                <path d="M28 10v10h10" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
+                <text x="24" y="36" font-family="Arial" font-size="8.5" font-weight="800" fill="white" text-anchor="middle">XLS</text>
+              </svg>
+              <h3>Excel Accessibility</h3>
+            </div>
+            <p>Transform spreadsheets into structured, navigable data tables that screen reader users can understand and interact with.</p>
+            <ul class="doc-features" aria-label="Excel accessibility features">
+              <li>Named & structured tables</li>
+              <li>Column & row header tagging</li>
+              <li>Alt text for charts & images</li>
+              <li>Worksheet & cell naming</li>
+              <li>Colour-independent data</li>
+              <li>Built-in Accessibility Checker pass</li>
+            </ul>
+            <a href="#contact" class="btn btn-outline-doc">Get an Excel Quote</a>
+          </div>
+
+        </div>
+
+        <!-- Bottom CTA -->
+        <div class="docs-cta" role="note">
+          <p>Need bulk remediation or a recurring document workflow? We offer volume pricing and ongoing retainers.</p>
+          <a href="#contact" class="btn btn-primary">Discuss Your Document Needs</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about" aria-labelledby="about-heading">
+      <div class="container about-inner">
+        <div class="about-visual" aria-hidden="true">
+          <div class="about-ring ring-1"></div>
+          <div class="about-ring ring-2"></div>
+          <div class="about-ring ring-3"></div>
+          <div class="about-center">
+            <span>A11y</span>
+          </div>
+          <div class="orbit-icon oi-1">♿</div>
+          <div class="orbit-icon oi-2">👁️</div>
+          <div class="orbit-icon oi-3">👂</div>
+          <div class="orbit-icon oi-4">🖐️</div>
+        </div>
+        <div class="about-text">
+          <span class="section-tag">About A11ytek</span>
+          <h2 id="about-heading">Accessibility Is Not an Option — It's a Right</h2>
+          <p>
+            Founded by accessibility engineers and disability advocates, A11ytek exists to close the gap between digital products and the 1.3 billion people worldwide living with a disability.
+          </p>
+          <p>
+            We combine deep technical expertise with lived user experience to deliver accessibility solutions that are real, measurable, and lasting — not checkbox compliance.
+          </p>
+          <div class="about-values" role="list" aria-label="Our values">
+            <div class="value-item" role="listitem">
+              <span class="value-icon" aria-hidden="true">💡</span>
+              <div>
+                <strong>Inclusive by Design</strong>
+                <p>Accessibility built in from the start, not bolted on.</p>
+              </div>
+            </div>
+            <div class="value-item" role="listitem">
+              <span class="value-icon" aria-hidden="true">🤝</span>
+              <div>
+                <strong>Human-Centred</strong>
+                <p>Real users with disabilities inform every recommendation.</p>
+              </div>
+            </div>
+            <div class="value-item" role="listitem">
+              <span class="value-icon" aria-hidden="true">📐</span>
+              <div>
+                <strong>Standards-Led</strong>
+                <p>WCAG, WAI-ARIA, and ATAG applied with precision.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why A11ytek -->
+    <section id="why" class="section why" aria-labelledby="why-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Why Choose Us</span>
+          <h2 id="why-heading">The A11ytek Difference</h2>
+          <p>We don't just flag problems — we solve them, and we help your team prevent them from coming back.</p>
+        </div>
+        <div class="why-grid">
+          <div class="why-card">
+            <div class="why-icon" aria-hidden="true">🧪</div>
+            <h3>Manual + Automated Testing</h3>
+            <p>Automated tools catch ~30% of issues. Our expert manual testers find the rest — the ones that matter most to real users.</p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon" aria-hidden="true">🧑‍🦯</div>
+            <h3>Disabled Tester Network</h3>
+            <p>We engage testers who use assistive technologies daily — screen readers, switch access, magnification — for authentic feedback.</p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon" aria-hidden="true">⚡</div>
+            <h3>Fast Turnaround</h3>
+            <p>Initial audit reports delivered in 5–10 business days. Urgent compliance timelines accommodated on request.</p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon" aria-hidden="true">📄</div>
+            <h3>Litigation-Ready VPATs</h3>
+            <p>Our Accessibility Conformance Reports are accepted by government agencies, enterprise procurement, and legal counsel.</p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon" aria-hidden="true">🔧</div>
+            <h3>Fix, Don't Just Flag</h3>
+            <p>Every issue in our report includes exact code-level guidance. Our engineers can fix it for you if needed.</p>
+          </div>
+          <div class="why-card">
+            <div class="why-icon" aria-hidden="true">🌍</div>
+            <h3>Global Standards Coverage</h3>
+            <p>WCAG 2.2, ADA, Section 508, EN 301 549, AODA, and more — we keep up so you don't have to.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section id="process" class="section stats" aria-labelledby="process-heading">
+      <div class="container">
+        <div class="section-header light">
+          <span class="section-tag">How We Work</span>
+          <h2 id="process-heading">A Clear Path to Compliance</h2>
+          <p style="color:rgba(255,255,255,0.8)">Four straightforward steps from first contact to fully accessible product.</p>
+        </div>
+        <ul class="stats-grid" role="list">
+          <li class="stat-item" role="listitem">
+            <span class="process-step" aria-hidden="true">01</span>
+            <span class="stat-label" style="color:white;font-size:1rem;font-weight:700;">Discovery Call</span>
+            <span class="process-desc">We learn about your product, users, and compliance goals.</span>
+          </li>
+          <li class="stat-item" role="listitem">
+            <span class="process-step" aria-hidden="true">02</span>
+            <span class="stat-label" style="color:white;font-size:1rem;font-weight:700;">Full Audit</span>
+            <span class="process-desc">Manual + automated WCAG 2.2 testing with a detailed findings report.</span>
+          </li>
+          <li class="stat-item" role="listitem">
+            <span class="process-step" aria-hidden="true">03</span>
+            <span class="stat-label" style="color:white;font-size:1rem;font-weight:700;">Remediation</span>
+            <span class="process-desc">We fix issues with your team or hand off prioritized, code-level guidance.</span>
+          </li>
+          <li class="stat-item" role="listitem">
+            <span class="process-step" aria-hidden="true">04</span>
+            <span class="stat-label" style="color:white;font-size:1rem;font-weight:700;">Sign-Off</span>
+            <span class="process-desc">Re-test, confirm conformance, and issue your VPAT or compliance statement.</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="section contact" aria-labelledby="contact-heading">
+      <div class="container contact-inner">
+        <div class="contact-text">
+          <span class="section-tag">Get Started</span>
+          <h2 id="contact-heading">Let's Make Your Product Accessible</h2>
+          <p>Start with a free consultation. Our team will review your product and outline a clear path to compliance.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span aria-hidden="true">📧</span>
+              <a href="mailto:a11ytek.accessibility@gmail.com">a11ytek.accessibility@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <span aria-hidden="true">🌐</span>
+              <span>Remote — serving clients worldwide</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate aria-label="Contact form" data-formspree="https://formspree.io/f/xlgowyyd">
+          <!-- Honeypot spam guard -->
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" aria-hidden="true" />
+          <div class="form-group">
+            <label for="name">Full Name <span aria-hidden="true" class="required">*</span><span class="sr-only">(required)</span></label>
+            <input type="text" id="name" name="name" autocomplete="name" required aria-required="true" placeholder="Jane Smith" />
+          </div>
+          <div class="form-group">
+            <label for="email">Work Email <span aria-hidden="true" class="required">*</span><span class="sr-only">(required)</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" required aria-required="true" placeholder="jane@company.com" />
+          </div>
+          <div class="form-group">
+            <label for="service">Service Interested In</label>
+            <select id="service" name="service">
+              <option value="">Select a service…</option>
+              <option value="audit">Accessibility Audit</option>
+              <option value="remediation">Remediation Support</option>
+              <option value="compliance">Compliance Consulting</option>
+              <option value="training">Training & Education</option>
+              <option value="mobile">Mobile Accessibility</option>
+              <option value="monitoring">Ongoing Monitoring</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Tell Us About Your Project</label>
+            <textarea id="message" name="message" rows="4" placeholder="Describe your platform, current challenges, or compliance deadline…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          <p class="form-note" aria-live="polite" id="form-status"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#" class="logo" aria-label="A11ytek – Home">
+          <svg class="logo-icon" width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+            <defs>
+              <linearGradient id="lgf" x1="0" y1="0" x2="42" y2="42" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#2563eb"/>
+                <stop offset="1" stop-color="#7c3aed"/>
+              </linearGradient>
+            </defs>
+            <rect width="42" height="42" rx="12" fill="url(#lgf)"/>
+            <!-- Head — apex of the A -->
+            <circle cx="21" cy="9.5" r="4.5" fill="white"/>
+            <!-- Left leg of A = left leg of person -->
+            <path d="M8 35 L21 12" stroke="white" stroke-width="3.2" stroke-linecap="round"/>
+            <!-- Right leg of A = right leg of person -->
+            <path d="M34 35 L21 12" stroke="white" stroke-width="3.2" stroke-linecap="round"/>
+            <!-- Outstretched arms = crossbar of A -->
+            <path d="M11 24.5 L31 24.5" stroke="white" stroke-width="3.2" stroke-linecap="round"/>
+          </svg>
+          <span class="logo-word">
+            <span class="logo-a">A</span><span class="logo-11">11</span><span class="logo-y">y</span><span class="logo-tek">tek</span>
+          </span>
+        </a>
+        <p>Making the digital world accessible for everyone.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <div class="footer-col">
+          <h3>Services</h3>
+          <ul role="list">
+            <li><a href="#services">Accessibility Audits</a></li>
+            <li><a href="#services">Remediation</a></li>
+            <li><a href="#services">Compliance Consulting</a></li>
+            <li><a href="#services">Training</a></li>
+            <li><a href="#services">Mobile Accessibility</a></li>
+            <li><a href="#documents">Document Accessibility</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Company</h3>
+          <ul role="list">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#why">Why A11ytek</a></li>
+            <li><a href="#process">Process</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Standards</h3>
+          <ul role="list">
+            <li><a href="https://www.w3.org/TR/WCAG22/" target="_blank" rel="noopener noreferrer">WCAG 2.2 <span class="sr-only">(opens in new tab)</span></a></li>
+            <li><a href="https://www.ada.gov/" target="_blank" rel="noopener noreferrer">ADA Compliance <span class="sr-only">(opens in new tab)</span></a></li>
+            <li><a href="https://www.section508.gov/" target="_blank" rel="noopener noreferrer">Section 508 <span class="sr-only">(opens in new tab)</span></a></li>
+            <li><a href="https://www.etsi.org/deliver/etsi_en/301500_302000/301549/03.02.01_60/en_301549v030201p.pdf" target="_blank" rel="noopener noreferrer">EN 301 549 <span class="sr-only">(opens in new tab)</span></a></li>
+            <li><a href="https://www.ontario.ca/laws/statute/05a11" target="_blank" rel="noopener noreferrer">AODA <span class="sr-only">(opens in new tab)</span></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 A11ytek Inc. All rights reserved.</p>
+        <p>
+          <a href="privacy.html">Privacy Policy</a>
+          <span aria-hidden="true"> · </span>
+          This website conforms to <abbr title="Web Content Accessibility Guidelines">WCAG</abbr> 2.2 Level AA.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
